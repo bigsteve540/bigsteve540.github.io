@@ -1,7 +1,15 @@
+:root {
+    --lite-accent:#A6A6A6;
+    --mid-tone-lite:#737373;
+    --mid-tone:#404040;
+    --mid-tone-dark:#262626;
+    --dark-accent:#0D0D0D;
+}
+
 body {
-    background-color: darkslategrey;
+    background-color: var(--mid-tone);
 }
 
 h1 {
-    color: antiquewhite;
+    color: var(--lite-accent);
 }
