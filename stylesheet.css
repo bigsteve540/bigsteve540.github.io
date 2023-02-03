@@ -181,6 +181,7 @@ img {
 
 .card2, .hoverShadow:hover {
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    color: var(--mid-tone-lite);
 }
 
 .col, .half, .third, .twoThird, .quart {
