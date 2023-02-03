@@ -187,3 +187,32 @@ img {
     float: left;
     width: 100%;
 }
+
+.half {
+    width: 49.9999%;
+}
+.third {
+    width: 33.3333%;
+}
+.twoThird {
+    width: 66.6666%;
+}
+.quart {
+    width: 24.9999%;
+}
+
+.cell {
+    display: table-cell;
+}
+
+.cell-row {
+    display: table;
+    width: 100%;
+}
+
+.container:after,.container:before,.panel:after,.panel:before,.row:after,.row:before,.row-padding:after,.row-padding:before,
+.cell-row:before,.cell-row:after,.clear:after,.clear:before,.bar:before,.bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
