@@ -89,6 +89,7 @@ optgroup {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    color: var(--lite-accent);
     font-family: 'Segoe UI', Arial, sans-serif;
     font-weight: 400;
     margin: 10px;
@@ -96,7 +97,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 36px;
-    color: var(--lite-accent);
 }
 h2 {
     font-size: 30px;
